@@ -1,7 +1,7 @@
 import java.Util;
 import java.util.Scanner;
 
-public class storyLine {
+public class Demo1 {
 
     public static void main(String[] args) {
 
