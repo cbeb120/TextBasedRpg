@@ -32,7 +32,9 @@ public class storyLine {
                                 "you roll onto your back and look at the sky to see a massive figure break throught the clouds and douse your homestead in the intense heat of fire");
                 System.out.println("As the flames eat away your beautiful home you pass out in the burning rubble.");
                 System.out.println(
-                                "When you come to, you start to cry and pound the ground in rage, as you search through the rubble you manage to find some clothes and a small amount of personal belongings, unfortunenately they are burnt by the fire");
+                                "When you come to, you start to cry and pound the ground in rage.");
+                System.out.println(
+                                "As you search through the rubble you manage to find some clothes and a small amount of personal belongings, unfortunately they are burnt by the fire");
                 System.out.println(
                                 "However while searching your floorboards you find the chest fully intact completely undamaged.");
                 System.out.println("");
