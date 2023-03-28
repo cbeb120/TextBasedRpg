@@ -3,10 +3,6 @@ import java.Util;
 
 public class storyLine {
 
-        public static void main(String[] args) {
-
-        }
-
         public static void intro() {
                 System.out.println("One morning you wake up to the roosters crow on your family farm.");
                 System.out.println(
@@ -45,6 +41,7 @@ public class storyLine {
                 System.out.println("2- Would you like to leave it there, I'm sure someone will come back for it.");
                 System.out.println(
                                 "3- Would you like to sell the sword and armor? I'm sure it would fetch a fancy price.");
+                System.out.println("");
         }
 
         public static void mainEvent2() {
@@ -63,6 +60,8 @@ public class storyLine {
                 System.out.println("1- Do you decide to help the fruit vendor?");
                 System.out.println("2- Nah im sure he can figure it out himself");
                 System.out.println("3- I have more important matters to do (P.S. who even talks like this)");
+
+                System.out.println("");
         }
 
         public static void mainEvent3() {
@@ -77,11 +76,13 @@ public class storyLine {
                                 "As you finish setting up camp along the road next to the treeline, you hear some rustling of leaves as four large wolves walk into the clearing.");
                 System.out.println("The wolves foam at the mouth as they approach your camp.");
                 System.out.println("What will you do?");
+                System.out.println();
 
                 System.out.println("1- Throw some food at them im sure they are hungry");
                 System.out.println("2- Prepare to fight");
                 System.out.println("3- Run...(I doubt you can outrun them, ... just an observation :)");
 
+                System.out.println("");
         }
 
         public static void mainEvent4() {
@@ -102,10 +103,13 @@ public class storyLine {
                                 "As you finally manage to get across the bridge, you step towards the door, but as you do you get blocked by two swords");
                 System.out.println(
                                 "The guards shift there heads towards you and in an acho like drone they tell you that you can't enter");
+                System.out.println();
 
                 System.out.println("1- Defeat the guards");
                 System.out.println("2- Turn away and run");
                 System.out.println("3- Move forward to rescue the princess");
+
+                System.out.println("");
         }
 
         public static void mainEvent5() {
@@ -155,7 +159,7 @@ public class storyLine {
         public static void wonFight3() {
                 System.out.println(
                                 "Both guards crumple in defeat and fall against the walls of the castle.");
-                System.out.println(" you decide now is a good time to prepare yourself for what is about to happen.");
+                System.out.println("You decide now is a good time to prepare yourself for what is about to happen.");
         }
 
 }
