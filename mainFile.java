@@ -8,5 +8,4 @@ public class mainFile {
         storyLine.mainEvent1();
         storyLine.mainEvent2();
     }
-
 }

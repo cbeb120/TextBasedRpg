@@ -48,14 +48,14 @@ public class storyLine {
                 Scanner scnr = new Scanner(System.in);
                 scnr.nextInt();
 
-                if (System.in == 1) {
+                if (scnr.nextInt() == 1) {
                         System.out.println(
                                         "As you pick up the sword a voice calls out from the heavens, Mighty hero you have been chosen to go on a valiant quest");
                         System.out.println("As you don the armor you feel stronger and bigger by the second.");
                         System.out.println(
                                         "The sword tells you its time to continue your quest and chase after the bandits.");
 
-                } else if (System.in == 2) {
+                } else if (scnr.nextInt() == 2) {
                         System.out.println("You decide to leave the sword, im sure you wont miss it.");
                         System.out.println(
                                         "You decide its not a bad idea to chase after the bandits and get some well served revenge.");
@@ -90,24 +90,26 @@ public class storyLine {
                 Scanner scnr1 = new Scanner(System.in);
                 scnr1.nextInt();
 
-                if (System.in == 1) {
+                if (scnr1.nextInt() == 1) {
                         System.out.println(
                                         "You step forward and provoke the bandits, they look rather annoyed that yoou step into the middle of their arguement");
                         System.out.println("The bandits surround you and the battle begins!");
-                } else if (System.in == 2) {
+                } else if (scnr1.nextInt() == 2)
                         System.out.println(
                                         "You decide this isn't your place to step in, you try to walk past and one of the bandits stops you.");
-                        System.out.println("He looks you up and down and says Ive seen you before.");
-                        System.out.println(
-                                        "Before you can reply the bandits surround you and pull their weapons on you");
-                        System.out.println("A fight begins!");
-                } else {
-                        System.out.println(
-                                        "You walk through the crowd pushing bandits and even the poor fruit vendor out of the way");
-                        System.out.println("The vendor, grabs your ankle and begs you to help him.");
-                        System.out.println("You turn to face the bandits they are visibly angry after being shoved.");
-                        System.out.println("You step forward in rage and the fight begins.");
-                }
+                System.out.println("He looks you up and down and says Ive seen you before.");
+                System.out.println(
+                                "Before you can reply the bandits surround you and pull their weapons on you");
+                System.out.println("A fight begins!");
+        }else
+
+        {
+                System.out.println(
+                                "You walk through the crowd pushing bandits and even the poor fruit vendor out of the way");
+                System.out.println("The vendor, grabs your ankle and begs you to help him.");
+                System.out.println("You turn to face the bandits they are visibly angry after being shoved.");
+                System.out.println("You step forward in rage and the fight begins.");
+        }
         }
 
         public static void mainEvent3() {
