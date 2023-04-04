@@ -45,8 +45,8 @@ public class storyLine {
                                 "3- Would you like to sell the sword and armor? I'm sure it would fetch a fancy price.");
                 System.out.println("");
 
-                Scanner scnr = new Scanner();
-                scnr.nextInt(System.in);
+                Scanner scnr = new Scanner(System.in);
+                scnr.nextInt();
 
                 if (System.in == 1) {
                         System.out.println(
@@ -87,8 +87,8 @@ public class storyLine {
 
                 System.out.println("");
 
-                Scanner scnr1 = new Scanner();
-                scnr1.nextInt(System.in);
+                Scanner scnr1 = new Scanner(System.in);
+                scnr1.nextInt();
 
                 if (System.in == 1) {
                         System.out.println(
