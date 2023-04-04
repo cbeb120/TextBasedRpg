@@ -36,7 +36,7 @@ public class storyLine {
                 System.out.println(
                                 "As you search through the rubble you manage to find some clothes and a small amount of personal belongings, unfortunately they are burnt by the fire");
                 System.out.println(
-                                "However while searching your floorboards you find the chest fully intact completely undamaged.");
+                                "However while you are searching your house, under the floorboards you find the chest fully intact completely undamaged.");
                 System.out.println("");
 
                 System.out.println("1- Would you like to take the holy sword and armor for yourself?");
@@ -44,6 +44,28 @@ public class storyLine {
                 System.out.println(
                                 "3- Would you like to sell the sword and armor? I'm sure it would fetch a fancy price.");
                 System.out.println("");
+
+                Scanner scnr = new Scanner();
+                scnr.nextInt(System.in);
+
+                if (System.in == 1) {
+                        System.out.println(
+                                        "As you pick up the sword a voice calls out from the heavens, Mighty hero you have been chosen to go on a valiant quest");
+                        System.out.println("As you don the armor you feel stronger and bigger by the second.");
+                        System.out.println(
+                                        "The sword tells you its time to continue your quest and chase after the bandits.");
+
+                } else if (System.in == 2) {
+                        System.out.println("You decide to leave the sword, im sure you wont miss it.");
+                        System.out.println(
+                                        "You decide its not a bad idea to chase after the bandits and get some well served revenge.");
+
+                } else {
+                        System.out.println(
+                                        "you pick up the chest and fasten some leftover rope to it that you found on the ground.");
+                        System.out.println(
+                                        "You decide that the easiest way to carry it is by making it into a backpack.");
+                }
         }
 
         public static void mainEvent2() {
@@ -52,18 +74,40 @@ public class storyLine {
                 System.out.println(
                                 "Talespire is a town about 2 miles away from your home, as you reach the walls of the town you are exhausted by travel and the guards stop you at the gates.");
                 System.out.println(
-                                "As soon as you approach the gates the guards ask what your reason for entrance is, you exclaim that your house was burnt down and you are looking to get some info abou the ones responsible for it.");
+                                "As soon as you approach the gates the guards ask what your reason for entrance is, you exclaim that your house was burnt down and you are looking to get some info about the ones responsible for it.");
                 System.out.println(
-                                "The guards decide to let you past, and as you walk into the town you heard a loud commotion as you see some thugs attacking a poor fruit vendor");
+                                "The guards decide to let you pass, and as you walk into the town you heard a loud commotion as you see some thugs attacking a poor fruit vendor");
                 System.out.println(
                                 "You think it would be a smart decision to help the man seeing as they are bandits they might know what happened at your house. Wink Wink");
                 System.out.println("");
 
-                System.out.println("1- Do you decide to help the fruit vendor?");
+                System.out.println("1- help the fruit vendor?");
                 System.out.println("2- Nah im sure he can figure it out himself");
                 System.out.println("3- I have more important matters to do (P.S. who even talks like this)");
 
                 System.out.println("");
+
+                Scanner scnr1 = new Scanner();
+                scnr1.nextInt(System.in);
+
+                if (System.in == 1) {
+                        System.out.println(
+                                        "You step forward and provoke the bandits, they look rather annoyed that yoou step into the middle of their arguement");
+                        System.out.println("The bandits surround you and the battle begins!");
+                } else if (System.in == 2) {
+                        System.out.println(
+                                        "You decide this isn't your place to step in, you try to walk past and one of the bandits stops you.");
+                        System.out.println("He looks you up and down and says Ive seen you before.");
+                        System.out.println(
+                                        "Before you can reply the bandits surround you and pull their weapons on you");
+                        System.out.println("A fight begins!");
+                } else {
+                        System.out.println(
+                                        "You walk through the crowd pushing bandits and even the poor fruit vendor out of the way");
+                        System.out.println("The vendor, grabs your ankle and begs you to help him.");
+                        System.out.println("You turn to face the bandits they are visibly angry after being shoved.");
+                        System.out.println("You step forward in rage and the fight begins.");
+                }
         }
 
         public static void mainEvent3() {
@@ -104,7 +148,7 @@ public class storyLine {
                 System.out.println(
                                 "As you finally manage to get across the bridge, you step towards the door, but as you do you get blocked by two swords");
                 System.out.println(
-                                "The guards shift there heads towards you and in an acho like drone they tell you that you can't enter");
+                                "The guards shift there heads towards you and in an echo like drone they tell you that you can't enter");
                 System.out.println();
 
                 System.out.println("1- Defeat the guards");
@@ -123,7 +167,7 @@ public class storyLine {
                                 "As you reach the top you walk into a bedroom with a beautidul woman screaming and pointing at the window");
                 System.out.println("You look through the window and see a massive eyeball staring into your soul");
                 System.out.println(
-                                "Before you can react you see a claw grab the top of the window, just as quickly as you see it the roof gets torn of the top of the tower.");
+                                "Before you can react you see a claw grab the top of the window, just as quickly as you see it the roof gets torn off the top of the tower.");
                 System.out.println(
                                 "As the princess scrambles to get away, the dragon drops the top of the tower into the lava below.");
                 System.out.println(
@@ -142,7 +186,7 @@ public class storyLine {
                 System.out.println(
                                 "He says the dragon dwells in a castle at the center of all maps, the volcano castle Inkarnate.");
                 System.out.println(
-                                "There are many legends surroundin the castle and how it has never been successfully entered in centuries");
+                                "There are many legends surrounding the castle and how it has never been successfully entered in centuries");
                 System.out.println(
                                 "The bandit then looks at you as his eyes begin to tear up, he says that you werent the only person attacked.");
                 System.out.println("To make matters worse he says that the other victim was kidnapped");
