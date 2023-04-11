@@ -46,7 +46,6 @@ public class storyLine {
                 System.out.println("");
 
                 Scanner scnr = new Scanner(System.in);
-                scnr.nextInt();
 
                 if (scnr.nextInt() == 1) {
                         System.out.println(
@@ -54,18 +53,22 @@ public class storyLine {
                         System.out.println("As you don the armor you feel stronger and bigger by the second.");
                         System.out.println(
                                         "The sword tells you its time to continue your quest and chase after the bandits.");
+                        System.out.println("");
 
                 } else if (scnr.nextInt() == 2) {
                         System.out.println("You decide to leave the sword, im sure you wont miss it.");
                         System.out.println(
                                         "You decide its not a bad idea to chase after the bandits and get some well served revenge.");
+                        System.out.println("");
 
                 } else {
                         System.out.println(
                                         "you pick up the chest and fasten some leftover rope to it that you found on the ground.");
                         System.out.println(
                                         "You decide that the easiest way to carry it is by making it into a backpack.");
+                        System.out.println("");
                 }
+                scnr.close();
         }
 
         public static void mainEvent2() {
@@ -88,28 +91,29 @@ public class storyLine {
                 System.out.println("");
 
                 Scanner scnr1 = new Scanner(System.in);
-                scnr1.nextInt();
 
                 if (scnr1.nextInt() == 1) {
                         System.out.println(
                                         "You step forward and provoke the bandits, they look rather annoyed that yoou step into the middle of their arguement");
                         System.out.println("The bandits surround you and the battle begins!");
-                } else if (scnr1.nextInt() == 2)
+                        System.out.println("");
+                } else if (scnr1.nextInt() == 2) {
                         System.out.println(
                                         "You decide this isn't your place to step in, you try to walk past and one of the bandits stops you.");
-                System.out.println("He looks you up and down and says Ive seen you before.");
-                System.out.println(
-                                "Before you can reply the bandits surround you and pull their weapons on you");
-                System.out.println("A fight begins!");
-        }else
-
-        {
-                System.out.println(
-                                "You walk through the crowd pushing bandits and even the poor fruit vendor out of the way");
-                System.out.println("The vendor, grabs your ankle and begs you to help him.");
-                System.out.println("You turn to face the bandits they are visibly angry after being shoved.");
-                System.out.println("You step forward in rage and the fight begins.");
-        }
+                        System.out.println("He looks you up and down and says Ive seen you before.");
+                        System.out.println(
+                                        "Before you can reply the bandits surround you and pull their weapons on you");
+                        System.out.println("A fight begins!");
+                        System.out.println("");
+                } else {
+                        System.out.println(
+                                        "You walk through the crowd pushing bandits and even the poor fruit vendor out of the way");
+                        System.out.println("The vendor, grabs your ankle and begs you to help him.");
+                        System.out.println("You turn to face the bandits they are visibly angry after being shoved.");
+                        System.out.println("You step forward in rage and the fight begins.");
+                        System.out.println("");
+                }
+                scnr1.close();
         }
 
         public static void mainEvent3() {

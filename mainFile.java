@@ -6,6 +6,7 @@ public class mainFile {
         storyLine.intro();
         System.out.println();
         storyLine.mainEvent1();
+        System.out.println();
         storyLine.mainEvent2();
     }
 }
