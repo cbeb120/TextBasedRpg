@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 import java.Util;
 
 public class mainFile {
@@ -8,5 +9,7 @@ public class mainFile {
         storyLine.mainEvent1();
         System.out.println();
         storyLine.mainEvent2();
+        System.out.println();
+
     }
 }

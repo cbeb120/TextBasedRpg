@@ -25,7 +25,7 @@ public class storyLine {
                 System.out.println(
                                 "As soon as you exit your house you get hit in the head by a club and begin to blackout.");
                 System.out.println(
-                                "As you fade out of conciousness you yell at one of the bandits as they loot your house for all your belongings");
+                                "As you fade out of consciousness you yell at one of the bandits as they loot your house for all your belongings");
                 System.out.println(
                                 "You yell at the Bandit why are you doing this to which he replies by pointing at the sky.");
                 System.out.println(
@@ -56,16 +56,16 @@ public class storyLine {
                         System.out.println("");
 
                 } else if (scnr.nextInt() == 2) {
-                        System.out.println("You decide to leave the sword, im sure you wont miss it.");
                         System.out.println(
                                         "You decide its not a bad idea to chase after the bandits and get some well served revenge.");
                         System.out.println("");
+                        storyLine.badEnding1();
 
                 } else {
                         System.out.println(
                                         "you pick up the chest and fasten some leftover rope to it that you found on the ground.");
                         System.out.println(
-                                        "You decide that the easiest way to carry it is by making it into a backpack.");
+                                        "You decide that the easiest way to carry it is by making it into a backpack. Im sure selling it will be the best decision");
                         System.out.println("");
                 }
                 scnr.close();
@@ -79,7 +79,7 @@ public class storyLine {
                 System.out.println(
                                 "As soon as you approach the gates the guards ask what your reason for entrance is, you exclaim that your house was burnt down and you are looking to get some info about the ones responsible for it.");
                 System.out.println(
-                                "The guards decide to let you pass, and as you walk into the town you heard a loud commotion as you see some thugs attacking a poor fruit vendor");
+                                "The guards decide to let you pass, and as you walk into the town you hear a loud commotion as you see some thugs attacking a poor fruit vendor");
                 System.out.println(
                                 "You think it would be a smart decision to help the man seeing as they are bandits they might know what happened at your house. Wink Wink");
                 System.out.println("");
@@ -94,7 +94,7 @@ public class storyLine {
 
                 if (scnr1.nextInt() == 1) {
                         System.out.println(
-                                        "You step forward and provoke the bandits, they look rather annoyed that yoou step into the middle of their arguement");
+                                        "You step forward and provoke the bandits, they look rather annoyed that you step into the middle of their argument");
                         System.out.println("The bandits surround you and the battle begins!");
                         System.out.println("");
                 } else if (scnr1.nextInt() == 2) {
@@ -110,7 +110,7 @@ public class storyLine {
                                         "You walk through the crowd pushing bandits and even the poor fruit vendor out of the way");
                         System.out.println("The vendor, grabs your ankle and begs you to help him.");
                         System.out.println("You turn to face the bandits they are visibly angry after being shoved.");
-                        System.out.println("You step forward in rage and the fight begins.");
+                        System.out.println("You take a step forward in rage, drawing your sword and the fight begins.");
                         System.out.println("");
                 }
                 scnr1.close();
@@ -150,7 +150,7 @@ public class storyLine {
                                 "As you take in the view you come across an old rickety rope bridge, it looks just as damaged as the castle.");
                 System.out.println("Im suprised its lasted that long considering its wood and rope.");
                 System.out.println(
-                                "As you struggle to cross the bridg you can see that there are two suits of armor standing by the front entrance.");
+                                "As you struggle to cross the bridge you can see that there are two suits of armor standing by the front entrance.");
                 System.out.println(
                                 "As you finally manage to get across the bridge, you step towards the door, but as you do you get blocked by two swords");
                 System.out.println(
@@ -170,14 +170,14 @@ public class storyLine {
                                 "As you walk towards the stairs you hear a scream come from above, followed by the roar of the dragon.");
                 System.out.println("As you ascend the steps the sound of beating wings can be heard from outside.");
                 System.out.println(
-                                "As you reach the top you walk into a bedroom with a beautidul woman screaming and pointing at the window");
+                                "As you reach the top you walk into a bedroom with a beautiful woman screaming and pointing at the window");
                 System.out.println("You look through the window and see a massive eyeball staring into your soul");
                 System.out.println(
                                 "Before you can react you see a claw grab the top of the window, just as quickly as you see it the roof gets torn off the top of the tower.");
                 System.out.println(
                                 "As the princess scrambles to get away, the dragon drops the top of the tower into the lava below.");
                 System.out.println(
-                                "it turns its head towards you and bellows I am the mighty Berg I have terrorized these lands for centuries");
+                                "it turns its head towards you, to which you notice a jagged crown carved from rock, he then bellows I am the mighty Berg I have terrorized these lands for centuries");
                 System.out.println(
                                 "Berg looks down on you and says I suppose whether your here for righteousness or not we must duel");
                 System.out.println("Berg drops down onto the edges of the tower and the fight begins");
@@ -212,6 +212,39 @@ public class storyLine {
                 System.out.println(
                                 "Both guards crumple in defeat and fall against the walls of the castle.");
                 System.out.println("You decide now is a good time to prepare yourself for what is about to happen.");
+        }
+
+        public static void badEnding1() {
+
+                System.out.println(
+                                "You leave the sword and armor where it is deciding it's ugly and doesn't suit you, you stash them back under the floorboards.");
+                System.out.println(
+                                "As you walk away from the chest a dark figure in the woods wispers at you to come here.");
+                System.out.println("You walk over to the man to hear what he has to say.");
+                System.out.println("The man introduces himself as Lilitu.");
+                System.out.println("He then explains to you about the horrors of the dragon who rules over Inkarnate.");
+                System.out.println(
+                                "Lilitu then offers you a special dark sword that he claims will be able to sly the dragon.");
+                System.out.println(
+                                "He convinces you to take the sword and slay the dragon and become the new ruler of Inkarnate.");
+                System.out.println("You head for your farm to begin your quest to slay the dragon.");
+
+        }
+
+        public static void badEnding2() {
+                System.out.println(
+                                "After slaying the dragon with the dark sword you walk over to it's body and pick up it's crown.");
+                System.out.println(
+                                "You put on the crown and a dark mysterious mist starts to rise from you and the sword.");
+                System.out.println(
+                                "The mist then shoots into you and you start to feel more powerful and stronger than ever before.");
+                System.out.println("The first thing you do with the power is create an army of unstoppable demans.");
+                System.out.println(
+                                "Then you send the army out into the land to destroy everything the dragon worked so hard for.");
+                System.out.println(
+                                "You sit on the thrown that overlooks Inkarnate and listen to the destruction with gloomy skies and a grin on your face knowing you won and nothing can stop you.");
+                System.out.println();
+                System.out.println("THE END.");
         }
 
 }
