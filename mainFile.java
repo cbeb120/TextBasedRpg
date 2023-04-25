@@ -10,6 +10,10 @@ public class mainFile {
         System.out.println();
         storyLine.mainEvent2();
         System.out.println();
-
+        storyLine.mainEvent3();
+        System.out.println();
+        storyLine.mainEvent4();
+        System.out.println();
+        storyLine.mainEvent5();
     }
 }

@@ -56,9 +56,6 @@ public class storyLine {
                         System.out.println("");
 
                 } else if (scnr.nextInt() == 2) {
-                        System.out.println(
-                                        "You decide its not a bad idea to chase after the bandits and get some well served revenge.");
-                        System.out.println("");
                         storyLine.badEnding1();
 
                 } else {
@@ -67,8 +64,8 @@ public class storyLine {
                         System.out.println(
                                         "You decide that the easiest way to carry it is by making it into a backpack. Im sure selling it will be the best decision");
                         System.out.println("");
+
                 }
-                scnr.close();
         }
 
         public static void mainEvent2() {
@@ -97,6 +94,7 @@ public class storyLine {
                                         "You step forward and provoke the bandits, they look rather annoyed that you step into the middle of their argument");
                         System.out.println("The bandits surround you and the battle begins!");
                         System.out.println("");
+
                 } else if (scnr1.nextInt() == 2) {
                         System.out.println(
                                         "You decide this isn't your place to step in, you try to walk past and one of the bandits stops you.");
@@ -113,7 +111,7 @@ public class storyLine {
                         System.out.println("You take a step forward in rage, drawing your sword and the fight begins.");
                         System.out.println("");
                 }
-                scnr1.close();
+
         }
 
         public static void mainEvent3() {
@@ -135,6 +133,28 @@ public class storyLine {
                 System.out.println("3- Run...(I doubt you can outrun them, ... just an observation :)");
 
                 System.out.println("");
+
+                Scanner scnr2 = new Scanner(System.in);
+
+                if (scnr2.nextInt() == 1) {
+                        System.out.println(
+                                        "You toss some food at the feet of the wolves, they start to fight over the food.");
+                        System.out.println("You decide to try and run while the wolves are occupied.");
+                        System.out.println(
+                                        "Before you can escape you realize that one of the wolves didnt dive for the food you threw.");
+                        System.out.println(
+                                        "The lone wolf bites your ankle as you try to run and you are forced to fight!");
+                        System.out.println();
+
+                } else if (scnr2.nextInt() == 2) {
+                        System.out.println(
+                                        "You ready yourself for the fight thats about to ensue, as a wolf lunges at you.");
+                        System.out.println();
+                } else {
+                        System.out.println(
+                                        "You turn to run after seeing the wolves surround your camp, however as you turn a wolf chomps down onto your ankle.");
+                        System.out.println("");
+                }
         }
 
         public static void mainEvent4() {
@@ -162,6 +182,21 @@ public class storyLine {
                 System.out.println("3- Move forward to rescue the princess");
 
                 System.out.println("");
+
+                Scanner scnr3 = new Scanner(System.in);
+
+                if (scnr3.nextInt == 1) {
+                        System.out.println("You step forward and prepare to take on the guards, The fight begins!");
+                        System.out.println();
+                } else if (scnr3.nextInt == 2) {
+                        System.out.println(
+                                        "Before you get the chance to turn tail and run the guards lunge at you, and the fight is on!");
+                        System.out.println();
+                } else {
+                        System.out.println(
+                                        "You try to walk through the guards weapons, however aas you duck forward one of them grabs you starting a fight.");
+                        System.out.println();
+                }
         }
 
         public static void mainEvent5() {
@@ -181,6 +216,26 @@ public class storyLine {
                 System.out.println(
                                 "Berg looks down on you and says I suppose whether your here for righteousness or not we must duel");
                 System.out.println("Berg drops down onto the edges of the tower and the fight begins");
+
+                System.out.println("1- will you protect the princess?");
+                System.out.println("2- come on man its a princess");
+                System.out.println("3- dude running at this point isnt even an option");
+
+                Scanner scnr4 = new Scanner(System.in);
+                if (scnr4.nextInt == 1) {
+                        System.out.println("Good choice I expect nothing less of a mighty hero, The fight begins!");
+                        System.out.println();
+
+                } else if (scnr4.nextInt == 2) {
+                        System.out.println(
+                                        "I mean you weren't supposed to choose this, but I guess you did... anyways...The fight begins!");
+                        System.out.println();
+                } else {
+                        System.out.println(
+                                        "I thought the option was pretty self explanatory... but you chose it anywas huh I didnt actually expect you to choose this");
+                        System.out.println("Anyways the fight begins!");
+                        System.out.println();
+                }
         }
 
         public static void wonFight1() {
@@ -219,15 +274,16 @@ public class storyLine {
                 System.out.println(
                                 "You leave the sword and armor where it is deciding it's ugly and doesn't suit you, you stash them back under the floorboards.");
                 System.out.println(
-                                "As you walk away from the chest a dark figure in the woods wispers at you to come here.");
+                                "As you walk away from the chest a dark figure in the woods whispers at you to come here.");
                 System.out.println("You walk over to the man to hear what he has to say.");
                 System.out.println("The man introduces himself as Lilitu.");
                 System.out.println("He then explains to you about the horrors of the dragon who rules over Inkarnate.");
                 System.out.println(
-                                "Lilitu then offers you a special dark sword that he claims will be able to sly the dragon.");
+                                "Lilitu then offers you a special dark sword that he claims will be able to slay the dragon.");
                 System.out.println(
                                 "He convinces you to take the sword and slay the dragon and become the new ruler of Inkarnate.");
-                System.out.println("You head for your farm to begin your quest to slay the dragon.");
+                System.out.println(
+                                "You head for your farm to begin your quest to slay the dragon, you decide to start with finding out where those bandits went.");
 
         }
 
@@ -238,7 +294,7 @@ public class storyLine {
                                 "You put on the crown and a dark mysterious mist starts to rise from you and the sword.");
                 System.out.println(
                                 "The mist then shoots into you and you start to feel more powerful and stronger than ever before.");
-                System.out.println("The first thing you do with the power is create an army of unstoppable demans.");
+                System.out.println("The first thing you do with the power is create an army of unstoppable demons.");
                 System.out.println(
                                 "Then you send the army out into the land to destroy everything the dragon worked so hard for.");
                 System.out.println(
