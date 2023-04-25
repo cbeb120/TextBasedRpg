@@ -76,7 +76,94 @@ public class combatMethods {
             }
             System.out.println("Press any key to continue the fight:\n");
             boolean response = scanner.hasNext();
-            if(response == true) {
+            if(response == true && enemy1Health > 0 && health > 0) {
+                continue;
+            }
+            
+        }
+        
+        
+        
+    }
+
+    public static void enemy2fight(){
+
+        //Scanner scanner = new Scanner(System.in);
+        while(health >= 1 && enemy2Health >= 1){
+            Scanner scanner = new Scanner(System.in);
+            viewHealth();
+            viewEnemy2Health();
+            randAtt.randomAttack1();
+            enemy2Hit();
+            if(enemy2Health <= 0){
+                //battleWon();
+                break;
+            }
+            else if(health <= 0){
+                //youDied();
+                break;
+            }
+            System.out.println("Press any key to continue the fight:\n");
+            boolean response = scanner.hasNext();
+            if(response == true && enemy2Health > 0 && health > 0) {
+                continue;
+            }
+            
+        }
+        
+        
+        
+    }
+
+    public static void enemy3fight(){
+
+        //Scanner scanner = new Scanner(System.in);
+        while(health >= 1 && enemy3Health >= 1){
+            Scanner scanner = new Scanner(System.in);
+            viewHealth();
+            viewEnemy3Health();
+            randAtt.randomAttack1();
+            enemy1Hit();
+            if(enemy3Health <= 0){
+                //battleWon();
+                break;
+            }
+            else if(health <= 0){
+                //youDied();
+                break;
+            }
+            System.out.println("Press any key to continue the fight:\n");
+            boolean response = scanner.hasNext();
+            if(response == true && enemy3Health > 0 && health > 0) {
+                continue;
+            }
+            
+        }
+        
+        
+        
+    }
+
+    public static void enemy4fight(){
+
+        //Scanner scanner = new Scanner(System.in);
+        while(health >= 1 && enemy4Health >= 1){
+            Scanner scanner = new Scanner(System.in);
+            viewHealth();
+            viewEnemy4Health();
+            randAtt.randomAttack1();
+            enemy4Hit();
+            if(enemy4Health <= 0){
+                //battleWon();
+                break;
+            }
+            else if(health <= 0){
+                //youDied();
+                break;
+            }
+            System.out.println("Press any key to continue the fight:\n");
+            boolean response = scanner.hasNext();
+            if(response == true && enemy4Health > 0 && health > 0) {
                 continue;
             }
             
@@ -210,4 +297,3 @@ public class combatMethods {
 
     
 }
-
