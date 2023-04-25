@@ -221,7 +221,10 @@ public class storyLine {
                 System.out.println("2- come on man its a princess");
                 System.out.println("3- dude running at this point isnt even an option");
 
+                System.out.println();
+
                 Scanner scnr4 = new Scanner(System.in);
+
                 if (scnr4.nextInt == 1) {
                         System.out.println("Good choice I expect nothing less of a mighty hero, The fight begins!");
                         System.out.println();
