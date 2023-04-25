@@ -3,8 +3,8 @@ import java.util.Random;
 public class randAtt {
 
     public static void enemyAttack() {
-        int max1 = 20;
-        int min1 = 1;
+        int max = 20;
+        int min = 1;
 
         Random rand = new Random();
         int opt = rand.nextInt(max1 - min1) + min1;
