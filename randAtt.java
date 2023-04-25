@@ -7,7 +7,7 @@ public class randAtt {
         int min = 1;
 
         Random rand = new Random();
-        int opt = rand.nextInt(max1 - min1) + min1;
+        int opt = rand.nextInt(max - min) + min;
         int temp = opt;
 
         if (opt == 1) {
