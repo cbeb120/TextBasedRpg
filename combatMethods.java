@@ -1,4 +1,4 @@
-package src;
+
 //java.util.Random;
 import java.util.Random;
 import java.util.Scanner;
@@ -9,12 +9,13 @@ public class combatMethods {
     private static int enemy2Health = 75;
     private static int enemy3Health = 100;
     private static int enemy4Health = 125;
+    //private int opt = 0;
     public combatMethods(int health){
         //health = 100;
     }
     public static void beenHit(){
         health = health - 10;
-        System.out.println(health);
+        //System.out.println(health);
     }
     public  static void viewHealth(){
         System.out.println("Your current health is " + health);
@@ -59,22 +60,19 @@ public class combatMethods {
     }
     public static void enemy1fight(){
 
-        //Scanner scanner = new Scanner(System.in);
         while(health >= 1 && enemy1Health >= 1){
             Scanner scanner = new Scanner(System.in);
             viewHealth();
             viewEnemy1Health();
-            randAtt.randomAttack1();
-            enemy1Hit();
-            if(enemy1Health <= 0){
-                //battleWon();
-                break;
+            int temp = randAtt.randomAttack1();
+            if(temp >= 1 && temp <= 10){
+                enemy1Hit();
             }
-            else if(health <= 0){
-                //youDied();
-                break;
+            else{
+                beenHit();
             }
-            System.out.println("Press any key to continue the fight:\n");
+            //enemy1Hit();
+            System.out.println("Press any key to continue the fight:");
             boolean response = scanner.hasNext();
             if(response == true && enemy1Health > 0 && health > 0) {
                 continue;
@@ -88,22 +86,18 @@ public class combatMethods {
 
     public static void enemy2fight(){
 
-        //Scanner scanner = new Scanner(System.in);
         while(health >= 1 && enemy2Health >= 1){
             Scanner scanner = new Scanner(System.in);
             viewHealth();
             viewEnemy2Health();
-            randAtt.randomAttack1();
-            enemy2Hit();
-            if(enemy2Health <= 0){
-                //battleWon();
-                break;
+            int temp = randAtt.randomAttack1();
+            if(temp >= 1 && temp <= 10){
+                enemy2Hit();
             }
-            else if(health <= 0){
-                //youDied();
-                break;
+            else{
+                beenHit();
             }
-            System.out.println("Press any key to continue the fight:\n");
+            System.out.println("Press any key to continue the fight:");
             boolean response = scanner.hasNext();
             if(response == true && enemy2Health > 0 && health > 0) {
                 continue;
@@ -117,22 +111,18 @@ public class combatMethods {
 
     public static void enemy3fight(){
 
-        //Scanner scanner = new Scanner(System.in);
         while(health >= 1 && enemy3Health >= 1){
             Scanner scanner = new Scanner(System.in);
             viewHealth();
             viewEnemy3Health();
-            randAtt.randomAttack1();
-            enemy1Hit();
-            if(enemy3Health <= 0){
-                //battleWon();
-                break;
+            int temp = randAtt.randomAttack1();
+            if(temp >= 1 && temp <= 10){
+                enemy3Hit();
             }
-            else if(health <= 0){
-                //youDied();
-                break;
+            else{
+                beenHit();
             }
-            System.out.println("Press any key to continue the fight:\n");
+            System.out.println("Press any key to continue the fight:");
             boolean response = scanner.hasNext();
             if(response == true && enemy3Health > 0 && health > 0) {
                 continue;
@@ -146,22 +136,18 @@ public class combatMethods {
 
     public static void enemy4fight(){
 
-        //Scanner scanner = new Scanner(System.in);
         while(health >= 1 && enemy4Health >= 1){
             Scanner scanner = new Scanner(System.in);
             viewHealth();
             viewEnemy4Health();
-            randAtt.randomAttack1();
-            enemy4Hit();
-            if(enemy4Health <= 0){
-                //battleWon();
-                break;
+            int temp = randAtt.randomAttack1();
+            if(temp >= 1 && temp <= 10){
+                enemy4Hit();
             }
-            else if(health <= 0){
-                //youDied();
-                break;
+            else{
+                beenHit();
             }
-            System.out.println("Press any key to continue the fight:\n");
+            System.out.println("Press any key to continue the fight:");
             boolean response = scanner.hasNext();
             if(response == true && enemy4Health > 0 && health > 0) {
                 continue;
