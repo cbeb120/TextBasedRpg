@@ -264,8 +264,41 @@ public class combatMethods {
 
 
     
-    public static boolean battleWon(){
-        return true;
+    public static boolean battleWon1(){
+        if(health > 0 && enemy1Health == 0)
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    public static boolean battleWon2(){
+        if(health > 0 && enemy2Health == 0)
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    public static boolean battleWon3(){
+        if(health > 0 && enemy3Health == 0)
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    public static boolean battleWon4(){
+        if(health > 0 && enemy4Health == 0)
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
     public static void youDied(){
