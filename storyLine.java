@@ -6,7 +6,7 @@ public class storyLine {
         public static void intro() {
                 System.out.println("One morning you wake up to the roosters crow on your family farm.");
                 System.out.println(
-                                "You wake up happy and go about doing your normal chores for the day by tending to the animals in the barn and then checking on the crops in the field.");
+                                "You happily go about doing your normal chores for the day by tending to the animals in the barn and then checking on the crops in the field.");
                 System.out.println(
                                 "While you are out looking through the crops you stumble across an old worn down chest.");
                 System.out.println(
@@ -34,7 +34,7 @@ public class storyLine {
                 System.out.println(
                                 "When you come to, you start to cry and pound the ground in rage.");
                 System.out.println(
-                                "As you search through the rubble you manage to find some clothes and a small amount of personal belongings, unfortunately they are burnt by the fire");
+                                "As you search through the rubble you manage to find some clothes and a small amount of personal belongings, unfortunately they are burnt by the fire.");
                 System.out.println(
                                 "However while you are searching your house, under the floorboards you find the chest fully intact completely undamaged.");
                 System.out.println("");
@@ -48,6 +48,7 @@ public class storyLine {
                 Scanner scnr = new Scanner(System.in);
 
                 if (scnr.nextInt() == 1) {
+                        System.out.println();
                         System.out.println(
                                         "As you pick up the sword a voice calls out from the heavens, Mighty hero you have been chosen to go on a valiant quest");
                         System.out.println("As you don the armor you feel stronger and bigger by the second.");
@@ -56,9 +57,11 @@ public class storyLine {
                         System.out.println("");
 
                 } else if (scnr.nextInt() == 2) {
+                        System.out.println();
                         storyLine.badEnding1();
 
                 } else {
+                        System.out.println();
                         System.out.println(
                                         "you pick up the chest and fasten some leftover rope to it that you found on the ground.");
                         System.out.println(
@@ -90,12 +93,14 @@ public class storyLine {
                 Scanner scnr1 = new Scanner(System.in);
 
                 if (scnr1.nextInt() == 1) {
+                        System.out.println();
                         System.out.println(
                                         "You step forward and provoke the bandits, they look rather annoyed that you step into the middle of their argument");
                         System.out.println("The bandits surround you and the battle begins!");
                         System.out.println("");
 
                 } else if (scnr1.nextInt() == 2) {
+                        System.out.println();
                         System.out.println(
                                         "You decide this isn't your place to step in, you try to walk past and one of the bandits stops you.");
                         System.out.println("He looks you up and down and says Ive seen you before.");
@@ -104,6 +109,7 @@ public class storyLine {
                         System.out.println("A fight begins!");
                         System.out.println("");
                 } else {
+                        System.out.println();
                         System.out.println(
                                         "You walk through the crowd pushing bandits and even the poor fruit vendor out of the way");
                         System.out.println("The vendor, grabs your ankle and begs you to help him.");
@@ -137,6 +143,7 @@ public class storyLine {
                 Scanner scnr2 = new Scanner(System.in);
 
                 if (scnr2.nextInt() == 1) {
+                        System.out.println();
                         System.out.println(
                                         "You toss some food at the feet of the wolves, they start to fight over the food.");
                         System.out.println("You decide to try and run while the wolves are occupied.");
@@ -147,10 +154,12 @@ public class storyLine {
                         System.out.println();
 
                 } else if (scnr2.nextInt() == 2) {
+                        System.out.println();
                         System.out.println(
                                         "You ready yourself for the fight thats about to ensue, as a wolf lunges at you.");
                         System.out.println();
                 } else {
+                        System.out.println();
                         System.out.println(
                                         "You turn to run after seeing the wolves surround your camp, however as you turn a wolf chomps down onto your ankle.");
                         System.out.println("");
@@ -158,6 +167,7 @@ public class storyLine {
         }
 
         public static void mainEvent4() {
+                System.out.println();
                 System.out.println("After your close call with the Wolves you set back on track towards the castle.");
                 System.out.println(
                                 "As the sun rises, as you walk along the road you see the sun bounce of the roof of a huge castle atop a huge mountain.");
@@ -186,13 +196,16 @@ public class storyLine {
                 Scanner scnr3 = new Scanner(System.in);
 
                 if (scnr3.nextInt == 1) {
+                        System.out.println();
                         System.out.println("You step forward and prepare to take on the guards, The fight begins!");
                         System.out.println();
                 } else if (scnr3.nextInt == 2) {
+                        System.out.println();
                         System.out.println(
                                         "Before you get the chance to turn tail and run the guards lunge at you, and the fight is on!");
                         System.out.println();
                 } else {
+                        System.out.println();
                         System.out.println(
                                         "You try to walk through the guards weapons, however aas you duck forward one of them grabs you starting a fight.");
                         System.out.println();
@@ -200,6 +213,7 @@ public class storyLine {
         }
 
         public static void mainEvent5() {
+                System.out.println();
                 System.out.println("Once you enter the castle, you see a massive spiral staircase ahead of you.");
                 System.out.println(
                                 "As you walk towards the stairs you hear a scream come from above, followed by the roar of the dragon.");
@@ -226,22 +240,26 @@ public class storyLine {
                 Scanner scnr4 = new Scanner(System.in);
 
                 if (scnr4.nextInt == 1) {
+                        System.out.println();
                         System.out.println("Good choice I expect nothing less of a mighty hero, The fight begins!");
                         System.out.println();
 
                 } else if (scnr4.nextInt == 2) {
+                        System.out.println();
                         System.out.println(
                                         "I mean you weren't supposed to choose this, but I guess you did... anyways...The fight begins!");
                         System.out.println();
                 } else {
+                        System.out.println();
                         System.out.println(
-                                        "I thought the option was pretty self explanatory... but you chose it anywas huh I didnt actually expect you to choose this");
+                                        "I thought the option was pretty self explanatory... but you chose it anyways huh I didnt actually expect you to choose this");
                         System.out.println("Anyways the fight begins!");
                         System.out.println();
                 }
         }
 
         public static void wonFight1() {
+                System.out.println();
                 System.out.println(
                                 "The last bandit falls to the ground as he coughs, he looks at you and gasps saying that he was sorry aand they didnt have a choice.");
                 System.out.println(
@@ -259,6 +277,7 @@ public class storyLine {
         }
 
         public static void wonFight2() {
+                System.out.println();
                 System.out.println(
                                 "The last wolf falls to the ground, exhausted by combat you take a moment to clean the blood from your self and gather your camp.");
                 System.out.println(
@@ -267,13 +286,14 @@ public class storyLine {
         }
 
         public static void wonFight3() {
+                System.out.println();
                 System.out.println(
                                 "Both guards crumple in defeat and fall against the walls of the castle.");
                 System.out.println("You decide now is a good time to prepare yourself for what is about to happen.");
         }
 
         public static void badEnding1() {
-
+                System.out.println();
                 System.out.println(
                                 "You leave the sword and armor where it is deciding it's ugly and doesn't suit you, you stash them back under the floorboards.");
                 System.out.println(
@@ -291,6 +311,7 @@ public class storyLine {
         }
 
         public static void badEnding2() {
+                System.out.println();
                 System.out.println(
                                 "After slaying the dragon with the dark sword you walk over to it's body and pick up it's crown.");
                 System.out.println(
