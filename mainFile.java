@@ -34,6 +34,7 @@ public class mainFile {
                     System.out.println();
                     storyLine.mainEvent5();
                     combatMethods.enemy4fight();
+
                 } else {
                     System.out.println("YOU DIED...please rerun the main file");
                 }

@@ -195,11 +195,11 @@ public class storyLine {
 
                 Scanner scnr3 = new Scanner(System.in);
 
-                if (scnr3.nextInt == 1) {
+                if (scnr3.nextInt() == 1) {
                         System.out.println();
                         System.out.println("You step forward and prepare to take on the guards, The fight begins!");
                         System.out.println();
-                } else if (scnr3.nextInt == 2) {
+                } else if (scnr3.nextInt() == 2) {
                         System.out.println();
                         System.out.println(
                                         "Before you get the chance to turn tail and run the guards lunge at you, and the fight is on!");
@@ -239,12 +239,12 @@ public class storyLine {
 
                 Scanner scnr4 = new Scanner(System.in);
 
-                if (scnr4.nextInt == 1) {
+                if (scnr4.nextInt() == 1) {
                         System.out.println();
                         System.out.println("Good choice I expect nothing less of a mighty hero, The fight begins!");
                         System.out.println();
 
-                } else if (scnr4.nextInt == 2) {
+                } else if (scnr4.nextInt() == 2) {
                         System.out.println();
                         System.out.println(
                                         "I mean you weren't supposed to choose this, but I guess you did... anyways...The fight begins!");

@@ -1,5 +1,4 @@
 
-//java.util.Random;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -13,6 +12,10 @@ public class combatMethods {
     // private int opt = 0;
     public combatMethods(int health) {
         // health = 100;
+    }
+
+    public static void restoreHealth() {
+        health = 100;
     }
 
     public static void beenHit() {
@@ -70,7 +73,7 @@ public class combatMethods {
     }
 
     public static void enemy1fight() {
-
+        restoreHealth();
         while (health >= 1 && enemy1Health >= 1) {
             Scanner scanner = new Scanner(System.in);
             viewHealth();
@@ -93,7 +96,7 @@ public class combatMethods {
     }
 
     public static void enemy2fight() {
-
+        restoreHealth();
         while (health >= 1 && enemy2Health >= 1) {
             Scanner scanner = new Scanner(System.in);
             viewHealth();
@@ -116,7 +119,7 @@ public class combatMethods {
     }
 
     public static void enemy3fight() {
-
+        restoreHealth();
         while (health >= 1 && enemy3Health >= 1) {
             Scanner scanner = new Scanner(System.in);
             viewHealth();
@@ -139,7 +142,7 @@ public class combatMethods {
     }
 
     public static void enemy4fight() {
-
+        restoreHealth();
         while (health >= 1 && enemy4Health >= 1) {
             Scanner scanner = new Scanner(System.in);
             viewHealth();
@@ -272,7 +275,7 @@ public class combatMethods {
     }
 
     public static boolean battleWon1() {
-        if (health > 0 && enemy1Health == 0) {
+        if (health > 0 && enemy1Health <= 0) {
             return true;
         } else {
             return false;
@@ -280,7 +283,7 @@ public class combatMethods {
     }
 
     public static boolean battleWon2() {
-        if (health > 0 && enemy2Health == 0) {
+        if (health > 0 && enemy2Health <= 0) {
             return true;
         } else {
             return false;
@@ -288,7 +291,7 @@ public class combatMethods {
     }
 
     public static boolean battleWon3() {
-        if (health > 0 && enemy3Health == 0) {
+        if (health > 0 && enemy3Health <= 0) {
             return true;
         } else {
             return false;
@@ -296,7 +299,7 @@ public class combatMethods {
     }
 
     public static boolean battleWon4() {
-        if (health > 0 && enemy4Health == 0) {
+        if (health > 0 && enemy4Health <= 0) {
             return true;
         } else {
             return false;
